@@ -1,0 +1,69 @@
+body {
+    background: radial-gradient(circle, #ffffff, #a3a3a3);
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    font-size: 0.8cm;
+}
+
+a:hover {
+    color: rgb(252, 17, 146);
+    font-size: 1cm;
+    transition-duration: 0.15s;
+    text-decoration: underline;
+
+}
+
+p {
+    color: rgb(252, 17, 146);
+    text-align: center;
+    font-size: 0.7cm;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: auto;
+    display: block;
+}
+
+.home_img {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 50%;
+}
+
+div img {
+    float: left;
+    margin-left: 10%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+div h1{
+    position: relative;
+    margin-right: 200px;
+    margin-left: 750px;
+    padding-top: 120px;
+    color: rgb(252, 17, 146);
+    text-decoration: underline;
+}
+
+div h1:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
